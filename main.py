@@ -1,16 +1,3 @@
-# import telebot
-# bot = telebot.TeleBot("1415537508:AAE4mxhOXjtgZH_Se4st7f-pTTdL4rfW4KU", parse_mode=None)
-# @bot.message_handler(commands=['start', 'help'])
-# def send_welcome(message):
-# 	bot.reply_to(message, "Press a button to get stoic wisdom.")
-#
-#
-# @bot.message_handler(func=lambda m: True)
-# def echo_all(message):
-# 	bot.reply_to(message, message.text)
-#
-#
-
 from resources import *
 import telebot
 from telebot import types
